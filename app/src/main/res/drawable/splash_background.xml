@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gold background -->
+    <item>
+        <shape>
+            <solid android:color="@color/splash_icon_bg" />
+        </shape>
+    </item>
+
+    <!-- Your icon (centered) -->
+    <item
+        android:gravity="center"
+        android:top="80dp"
+        android:bottom="80dp"
+        android:left="60dp"
+        android:right="60dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/splash_icon"
+            android:scaleType="centerInside"/>
+    </item>
+</layer-list>
